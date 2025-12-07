@@ -1,0 +1,20 @@
+/* ============================================
+   FOOTER
+   ============================================ */
+.footer {
+    padding: 60px 0;
+    background-color: #0A0A0A;
+    border-top: 1px solid #1A1A1A;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left p,
+.footer-right p {
+    font-size: 14px;
+    color: #666;
+}

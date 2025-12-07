@@ -1,0 +1,171 @@
+
+/* ============================================
+   RESPONSIVE DESIGN - MOBILE (max-width: 768px)
+   ============================================ */
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 100vw;
+        padding: 0 25px;
+    }
+.main-nav.active {
+    left: 0;
+}
+    .hero-section {
+        height: 100vh;
+        padding: 0 25px;
+    }
+
+    .hero-label {
+        top: 30px;
+        left: 25px;
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .nav-trigger {
+        top: 30px;
+        right: 25px;
+    }
+
+    .nav-trigger svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .portfolio-text-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .portfolio-text {
+        font-size: clamp(48px, 15vw, 80px);
+        text-align: center;
+    }
+
+    .portrait-container {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .portrait-placeholder {
+        width: clamp(260px, 70vw, 300px);
+        height: clamp(340px, 90vw, 400px);
+    }
+
+    .hero-name {
+        bottom: 30px;
+        left: 25px;
+        font-size: 18px;
+    }
+
+    .hero-website {
+        bottom: 30px;
+        right: 25px;
+        font-size: 12px;
+    }
+
+    .scroll-indicator {
+        bottom: 80px;
+    }
+
+    .section-header {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 60px;
+    }
+
+    .section-title {
+        font-size: clamp(36px, 10vw, 56px);
+    }
+
+    .about-section,
+    .portfolio-section,
+    .contact-section {
+        padding: 120px 0;
+    }
+
+    .about-text h3,
+    .contact-text h3 {
+        font-size: clamp(24px, 6vw, 32px);
+    }
+
+    .about-text p,
+    .contact-text p {
+        font-size: 16px;
+    }
+
+    .about-photo-placeholder {
+        height: 450px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .portfolio-grid {
+        gap: 60px;
+    }
+
+    .portfolio-placeholder {
+        height: 400px;
+    }
+
+    .portfolio-info h3 {
+        font-size: 24px;
+    }
+
+    .contact-form {
+        padding: 35px 25px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .main-nav {
+        width: 100%;
+        right: -100%;
+    }
+
+    .nav-close {
+        right: 25px;
+    }
+
+    .nav-link {
+        font-size: 28px;
+    }
+
+    .social-links {
+        gap: 20px;
+    }
+}
+
+/* ============================================
+   MOBILE - EXTRA SMALL SCREENS (max-width: 375px)
+   ============================================ */
+@media (max-width: 375px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .hero-name {
+        font-size: 16px;
+    }
+
+    .portfolio-text {
+        font-size: clamp(48px, 15vw, 80px);
+    }
+
+    .section-title {
+        font-size: clamp(32px, 10vw, 48px);
+    }
+}
